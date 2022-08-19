@@ -70,7 +70,11 @@ jobs:
     defaults:
       run:
         shell: bash
-
+    steps:
+    - name: list
+    run: |
+      - ls
+      -ls -la
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
