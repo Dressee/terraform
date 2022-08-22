@@ -58,7 +58,7 @@ module "aks"{
   name = "aks-weu-p-infra-01"
   aks-rg = "rg-weu-p-aks-01"
   kubernetes_version = "1.22.11"
-  agent_count = 1
+  agent_count = 2
   vm_size = "standard_d2as_v5"
 
   
