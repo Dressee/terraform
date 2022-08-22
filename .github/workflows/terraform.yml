@@ -51,7 +51,7 @@ on:
     - "main"
   pull_request:
     branches:
-    -"main"
+    - "main"
 
 permissions:
   contents: read
@@ -89,7 +89,7 @@ jobs:
       run: terraform init
 
     - name: Terraform Validate
-      run: terraform validate -no-color
+      run: terraform validate
 
     # Checks that all Terraform configuration files adhere to a canonical format
     #- name: Terraform Format
