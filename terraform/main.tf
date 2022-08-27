@@ -41,7 +41,7 @@ module "acr" {
   source   = "./Modules/acr"
   name     = "acrweupgeneral"
   acr-rg   = "rg-weu-p-acr-01"
-  environment = "Dev"
+  environment = "development"
 }
 
 module "loganalytics"{
